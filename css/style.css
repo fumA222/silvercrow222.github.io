@@ -268,33 +268,33 @@ li {
 }
 
 /*--------------------------------
- About
+ Profile
 ---------------------------------*/
-.about-section .inner {
+.profile-section .inner {
   max-width: 1000px;
 }
 
-.about-item {
+.profile-item {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.about-image-wrapper {
+.profile-image-wrapper {
   flex: 0 0 220px;
   margin-right: 40px;
 }
 
-.about-image {
+.profile-image {
   border-radius: 50%;
   box-shadow: 0 0 25px 0 #d9d9d9;
 }
 
-.about-body {
+.profile-body {
   flex: 1;
 }
 
-.about-body p:not(:last-child) {
+.profile-body p:not(:last-child) {
   margin-bottom: 20px;
 }
 
@@ -551,12 +551,12 @@ li {
     margin-bottom: 20px;
   }
 
-  /* About */
-  .about-item {
+  /* Profile */
+  .profile-item {
     display: block;
   }
 
-  .about-image-wrapper {
+  .profile-image-wrapper {
     width: 100px;
     max-width: 100%;
     margin: 0 auto 20px;
