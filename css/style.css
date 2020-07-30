@@ -381,7 +381,7 @@ li {
 }
 
 .rate0:after {
-  width: 10px;
+  width: 15px;
 }
 
 .rate1:after {
@@ -651,20 +651,40 @@ li {
     height: 15px;
   }
 
+  .rate0:after {
+    width: 10px;
+  }
+
   .rate1:after {
     width: 15px;
+  }
+
+  .rate15:after {
+    width: 25px;
   }
 
   .rate2:after {
     width: 35px;
   }
 
+  .rate25:after {
+    width: 45px;
+  }
+
   .rate3:after {
     width: 55px;
   }
 
+  .rate35:after {
+    width: 65px;
+  }
+
   .rate4:after {
     width: 75px;
+  }
+
+  .rate45:after {
+    width: 85px;
   }
 
   .rate5:after {
