@@ -88,6 +88,7 @@ li {
 ---------------------------------*/
 .wrapper {
   padding-top: 68px;
+  overflow: hidden;
 }
 
 .section {
@@ -525,7 +526,7 @@ li {
 
   /* レイアウト */
   .wrapper {
-    padding-top: 82px;
+    padding-top: 57px;
   }
 
   .section {
