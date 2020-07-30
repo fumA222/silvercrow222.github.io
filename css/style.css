@@ -233,9 +233,9 @@ li {
   margin-top: 8px;
 }
 
-/* .works-explain {
-  padding: 3px 5px 8px;
-} */
+.works-explain {
+  padding: 3px 5px 6px;
+}
 
 .works-text {
   font-size: 10px;
@@ -583,11 +583,11 @@ li {
   }
 
   .works-title {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .works-explain {
-    padding: 0px 0px 8px;
+    padding: 0px 0px 4px;
   }
 
   .works-list {
