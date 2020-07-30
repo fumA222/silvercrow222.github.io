@@ -427,7 +427,7 @@ li {
   width: 400px;
   margin: 50px auto 0;
   position: relative;
-  left: 100px;
+  left: 80px;
 }
 
 .contact-list {
@@ -660,7 +660,7 @@ li {
   }
 
   .rate15:after {
-    width: 25px;
+    width: 26.5px;
   }
 
   .rate2:after {
@@ -668,7 +668,7 @@ li {
   }
 
   .rate25:after {
-    width: 45px;
+    width: 46.5px;
   }
 
   .rate3:after {
@@ -676,7 +676,7 @@ li {
   }
 
   .rate35:after {
-    width: 65px;
+    width: 66.5px;
   }
 
   .rate4:after {
@@ -684,11 +684,16 @@ li {
   }
 
   .rate45:after {
-    width: 85px;
+    width: 86.5px;
   }
 
   .rate5:after {
     width: 95px;
+  }
+
+  /* Contact */
+  .contact {
+    left: 60px;
   }
 
   /* フッター */
