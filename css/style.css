@@ -234,7 +234,7 @@ li {
 }
 
 .works-explain {
-  margin: 5px 5px 10px;
+  padding: 5px 5px 10px;
 }
 
 .works-text {
@@ -584,6 +584,10 @@ li {
 
   .works-title {
     font-size: 10px;
+  }
+
+  .works-explain {
+    padding: 0 0 10px;
   }
 
   .works-list {
