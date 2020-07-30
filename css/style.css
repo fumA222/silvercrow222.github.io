@@ -133,7 +133,7 @@ li {
 }
 
 .logo-subtitle {
-  font-size: 20px;
+  font-size: 35px;
   margin-top: 5px;
   text-align: center;
   letter-spacing: .2em;
@@ -319,7 +319,7 @@ li {
   top: 10px;
 }
 
-.skill-AWS {
+.skill-AWS, .skill-JavaScript {
   position: relative;
   top: 5px;
 }
