@@ -228,9 +228,13 @@ li {
 }
 
 .works-title {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   margin-top: 8px;
+}
+
+.works-explain {
+  margin: 5px 5px 10px;
 }
 
 .works-text {
