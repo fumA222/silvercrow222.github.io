@@ -108,8 +108,9 @@ li {
 ヘッダー
 ---------------------------------*/
 .header {
-  background-image: url("img/back.png");
+  background-image: url("../img/back.png");
   background-size: cover;
+  background-position: 30%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -121,6 +122,7 @@ li {
   margin-bottom: 30px;
   padding: 0 20px;
   text-align: center;
+  text-shadow: 2px 2px white;
 }
 
 .logo-title {
@@ -249,27 +251,6 @@ li {
 }
 
 /*--------------------------------
- Feature
----------------------------------*/
-.feature-item {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.feature-image-wrapper {
-  flex: 0 0 45%;
-  margin-right: 40px;
-}
-
-.feature-body {
-  flex: 1;
-}
-
-.feature-body p:not(:last-child) {
-  margin-bottom: 20px;
-}
-
-/*--------------------------------
  Profile
 ---------------------------------*/
 .profile-section .inner {
@@ -314,12 +295,41 @@ li {
   margin-bottom: -50px;
 }
 
+.skill-list-front, .skill-list-back, .skill-list-database, .skill-list-other {
+  width: calc(50% - 10px);
+  background-color: #eee;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.list-top {
+  margin: 0 20px 20px;
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+.skill-radius {
+  border-radius: 100px;
+}
+
+.skill-HTML, .skill-MySQL{
+  position: relative;
+  top: 10px;
+}
+
+.skill-AWS {
+  position: relative;
+  top: 5px;
+}
+
 .skill-item {
   display: flex;
   flex: 0 0 46%;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin: 0 15px 40px;
 }
 
 .skill-image-wrapper {
@@ -366,23 +376,43 @@ li {
 .rate:after {
   overflow: hidden;
   white-space: nowrap;
-  color: #f181b4;
+  color: #777;
+}
+
+.rate0:after {
+  width: 10px;
 }
 
 .rate1:after {
   width: 20px;
 }
 
+.rate15:after {
+  width: 30px;
+}
+
 .rate2:after {
   width: 40px;
+}
+
+.rate25:after {
+  width: 50px;
 }
 
 .rate3:after {
   width: 60px;
 }
 
+.rate35:after {
+  width: 70px;
+}
+
 .rate4:after {
   width: 80px;
+}
+
+.rate45:after {
+  width: 90px;
 }
 
 .rate5:after {
@@ -392,22 +422,28 @@ li {
 /*--------------------------------
  Contact
 ---------------------------------*/
+.contact {
+  width: 400px;
+  margin: 50px auto 0;
+  position: relative;
+  left: 100px;
+}
+
 .contact-list {
   display: flex;
   align-items: flex-end;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
-.contact-item {
-  width: 50px;
-  margin: 0 20px;
-  text-align: center;
+.contact-image {
+  width: 40px;
+  border-radius: 40px;
 }
 
 .contact-text {
   margin-top: 10px;
-  text-align: center;
+  text-align: left;
 }
 
 /*--------------------------------
@@ -419,6 +455,19 @@ li {
 
 .footer .inner {
   padding: 30px;
+}
+
+.footer-link ul {
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-link a {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0 20px;
 }
 
 .copyright {
@@ -575,6 +624,12 @@ li {
     margin-bottom: 35px;
   }
 
+  .skill-list-front, .skill-list-back, .skill-list-database, .skill-list-other {
+    width: 80%;
+    padding: 10px 30px 30px;
+    margin: 0 auto 40px;
+  }
+
   .skill-item:last-child {
     margin-bottom: 0;
   }
@@ -613,12 +668,6 @@ li {
 
   .rate5:after {
     width: 95px;
-  }
-
-  /* Contact */
-  .contact-item {
-    width: 40px;
-    margin: 0 10px;
   }
 
   /* フッター */
